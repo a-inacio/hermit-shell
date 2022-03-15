@@ -1,3 +1,3 @@
-[submodule "proto"]
-	path = proto
+[submodule "api/proto/hermit-shell-grpc"]
+	path = api/proto/hermit-shell-grpc
 	url = git@github.com:a-inacio/hermit-shell-grpc.git
