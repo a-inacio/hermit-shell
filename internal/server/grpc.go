@@ -12,6 +12,10 @@ import (
 
 var grpcServer *grpc.Server
 
+func GetGrprServer() *grpc.Server {
+	return grpcServer
+}
+
 func ServeGrpc() {
 	log := logger.GetLogger()
 
@@ -25,6 +29,7 @@ func ServeGrpc() {
 	reflection.Register(grpcServer)
 
 	address := fmt.Sprintf("127.0.0.1:%s", port)
+
 	// create a TCP socket for inbound server connections
 	l, err := net.Listen("tcp", address)
 	if err != nil {

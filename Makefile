@@ -25,7 +25,7 @@ OUT_DIR:=$(ROOT_DIR)/bin
 .PHONY: all proto clean build help
 
 proto: ## Generate protobuf Go stubs
-	cd $(PROTO_DIR) && protoc --go_out=plugins=grpc:$(API_DIR)/hermit-shell-grpc/ hermit-shell-grpc/grpc/*.proto
+	cd $(PROTO_DIR) && protoc --go_out=plugins=grpc:$(API_DIR)/ hermit-shell-grpc/grpc/*.proto
 
 all: proto build ## Runs everything
 

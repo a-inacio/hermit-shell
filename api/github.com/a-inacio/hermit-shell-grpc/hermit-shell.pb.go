@@ -133,19 +133,20 @@ var file_hermit_shell_grpc_grpc_hermit_shell_proto_rawDesc = []byte{
 	0x61, 0x6d, 0x65, 0x22, 0x2f, 0x0a, 0x13, 0x53, 0x75, 0x62, 0x73, 0x63, 0x72, 0x69, 0x62, 0x65,
 	0x45, 0x76, 0x65, 0x6e, 0x74, 0x52, 0x65, 0x70, 0x6c, 0x79, 0x12, 0x18, 0x0a, 0x07, 0x70, 0x61,
 	0x79, 0x6c, 0x6f, 0x61, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x07, 0x70, 0x61, 0x79,
-	0x6c, 0x6f, 0x61, 0x64, 0x32, 0x71, 0x0a, 0x0b, 0x48, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x53, 0x68,
-	0x65, 0x6c, 0x6c, 0x12, 0x62, 0x0a, 0x0e, 0x53, 0x75, 0x62, 0x73, 0x63, 0x72, 0x69, 0x62, 0x65,
-	0x45, 0x76, 0x65, 0x6e, 0x74, 0x12, 0x26, 0x2e, 0x69, 0x6f, 0x2e, 0x68, 0x65, 0x72, 0x6d, 0x69,
-	0x74, 0x2e, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2e, 0x53, 0x75, 0x62, 0x73, 0x63, 0x72, 0x69, 0x62,
-	0x65, 0x45, 0x76, 0x65, 0x6e, 0x74, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x24, 0x2e,
-	0x69, 0x6f, 0x2e, 0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2e, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2e,
-	0x53, 0x75, 0x62, 0x73, 0x63, 0x72, 0x69, 0x62, 0x65, 0x45, 0x76, 0x65, 0x6e, 0x74, 0x52, 0x65,
-	0x70, 0x6c, 0x79, 0x22, 0x00, 0x30, 0x01, 0x42, 0x4b, 0x0a, 0x14, 0x69, 0x6f, 0x2e, 0x68, 0x65,
-	0x72, 0x6d, 0x69, 0x74, 0x2d, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2e, 0x67, 0x72, 0x70, 0x63, 0x42,
-	0x0a, 0x53, 0x68, 0x65, 0x6c, 0x6c, 0x50, 0x72, 0x6f, 0x74, 0x6f, 0x50, 0x01, 0x5a, 0x25, 0x67,
-	0x69, 0x74, 0x68, 0x75, 0x62, 0x2e, 0x63, 0x6f, 0x6d, 0x2f, 0x61, 0x2d, 0x69, 0x6e, 0x61, 0x63,
-	0x69, 0x6f, 0x2f, 0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2d, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2d,
-	0x67, 0x72, 0x70, 0x63, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
+	0x6c, 0x6f, 0x61, 0x64, 0x32, 0x76, 0x0a, 0x10, 0x48, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x53, 0x68,
+	0x65, 0x6c, 0x6c, 0x45, 0x76, 0x65, 0x6e, 0x74, 0x12, 0x62, 0x0a, 0x0e, 0x53, 0x75, 0x62, 0x73,
+	0x63, 0x72, 0x69, 0x62, 0x65, 0x45, 0x76, 0x65, 0x6e, 0x74, 0x12, 0x26, 0x2e, 0x69, 0x6f, 0x2e,
+	0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2e, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2e, 0x53, 0x75, 0x62,
+	0x73, 0x63, 0x72, 0x69, 0x62, 0x65, 0x45, 0x76, 0x65, 0x6e, 0x74, 0x52, 0x65, 0x71, 0x75, 0x65,
+	0x73, 0x74, 0x1a, 0x24, 0x2e, 0x69, 0x6f, 0x2e, 0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2e, 0x73,
+	0x68, 0x65, 0x6c, 0x6c, 0x2e, 0x53, 0x75, 0x62, 0x73, 0x63, 0x72, 0x69, 0x62, 0x65, 0x45, 0x76,
+	0x65, 0x6e, 0x74, 0x52, 0x65, 0x70, 0x6c, 0x79, 0x22, 0x00, 0x30, 0x01, 0x42, 0x4b, 0x0a, 0x14,
+	0x69, 0x6f, 0x2e, 0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2d, 0x73, 0x68, 0x65, 0x6c, 0x6c, 0x2e,
+	0x67, 0x72, 0x70, 0x63, 0x42, 0x0a, 0x53, 0x68, 0x65, 0x6c, 0x6c, 0x50, 0x72, 0x6f, 0x74, 0x6f,
+	0x50, 0x01, 0x5a, 0x25, 0x67, 0x69, 0x74, 0x68, 0x75, 0x62, 0x2e, 0x63, 0x6f, 0x6d, 0x2f, 0x61,
+	0x2d, 0x69, 0x6e, 0x61, 0x63, 0x69, 0x6f, 0x2f, 0x68, 0x65, 0x72, 0x6d, 0x69, 0x74, 0x2d, 0x73,
+	0x68, 0x65, 0x6c, 0x6c, 0x2d, 0x67, 0x72, 0x70, 0x63, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f,
+	0x33,
 }
 
 var (
@@ -166,8 +167,8 @@ var file_hermit_shell_grpc_grpc_hermit_shell_proto_goTypes = []interface{}{
 	(*SubscribeEventReply)(nil),   // 1: io.hermit.shell.SubscribeEventReply
 }
 var file_hermit_shell_grpc_grpc_hermit_shell_proto_depIdxs = []int32{
-	0, // 0: io.hermit.shell.HermitShell.SubscribeEvent:input_type -> io.hermit.shell.SubscribeEventRequest
-	1, // 1: io.hermit.shell.HermitShell.SubscribeEvent:output_type -> io.hermit.shell.SubscribeEventReply
+	0, // 0: io.hermit.shell.HermitShellEvent.SubscribeEvent:input_type -> io.hermit.shell.SubscribeEventRequest
+	1, // 1: io.hermit.shell.HermitShellEvent.SubscribeEvent:output_type -> io.hermit.shell.SubscribeEventReply
 	1, // [1:2] is the sub-list for method output_type
 	0, // [0:1] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -234,27 +235,27 @@ var _ grpc.ClientConnInterface
 // is compatible with the grpc package it is being compiled against.
 const _ = grpc.SupportPackageIsVersion6
 
-// HermitShellClient is the client API for HermitShell service.
+// HermitShellEventClient is the client API for HermitShellEvent service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
-type HermitShellClient interface {
-	SubscribeEvent(ctx context.Context, in *SubscribeEventRequest, opts ...grpc.CallOption) (HermitShell_SubscribeEventClient, error)
+type HermitShellEventClient interface {
+	SubscribeEvent(ctx context.Context, in *SubscribeEventRequest, opts ...grpc.CallOption) (HermitShellEvent_SubscribeEventClient, error)
 }
 
-type hermitShellClient struct {
+type hermitShellEventClient struct {
 	cc grpc.ClientConnInterface
 }
 
-func NewHermitShellClient(cc grpc.ClientConnInterface) HermitShellClient {
-	return &hermitShellClient{cc}
+func NewHermitShellEventClient(cc grpc.ClientConnInterface) HermitShellEventClient {
+	return &hermitShellEventClient{cc}
 }
 
-func (c *hermitShellClient) SubscribeEvent(ctx context.Context, in *SubscribeEventRequest, opts ...grpc.CallOption) (HermitShell_SubscribeEventClient, error) {
-	stream, err := c.cc.NewStream(ctx, &_HermitShell_serviceDesc.Streams[0], "/io.hermit.shell.HermitShell/SubscribeEvent", opts...)
+func (c *hermitShellEventClient) SubscribeEvent(ctx context.Context, in *SubscribeEventRequest, opts ...grpc.CallOption) (HermitShellEvent_SubscribeEventClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_HermitShellEvent_serviceDesc.Streams[0], "/io.hermit.shell.HermitShellEvent/SubscribeEvent", opts...)
 	if err != nil {
 		return nil, err
 	}
-	x := &hermitShellSubscribeEventClient{stream}
+	x := &hermitShellEventSubscribeEventClient{stream}
 	if err := x.ClientStream.SendMsg(in); err != nil {
 		return nil, err
 	}
@@ -264,16 +265,16 @@ func (c *hermitShellClient) SubscribeEvent(ctx context.Context, in *SubscribeEve
 	return x, nil
 }
 
-type HermitShell_SubscribeEventClient interface {
+type HermitShellEvent_SubscribeEventClient interface {
 	Recv() (*SubscribeEventReply, error)
 	grpc.ClientStream
 }
 
-type hermitShellSubscribeEventClient struct {
+type hermitShellEventSubscribeEventClient struct {
 	grpc.ClientStream
 }
 
-func (x *hermitShellSubscribeEventClient) Recv() (*SubscribeEventReply, error) {
+func (x *hermitShellEventSubscribeEventClient) Recv() (*SubscribeEventReply, error) {
 	m := new(SubscribeEventReply)
 	if err := x.ClientStream.RecvMsg(m); err != nil {
 		return nil, err
@@ -281,52 +282,52 @@ func (x *hermitShellSubscribeEventClient) Recv() (*SubscribeEventReply, error) {
 	return m, nil
 }
 
-// HermitShellServer is the server API for HermitShell service.
-type HermitShellServer interface {
-	SubscribeEvent(*SubscribeEventRequest, HermitShell_SubscribeEventServer) error
+// HermitShellEventServer is the server API for HermitShellEvent service.
+type HermitShellEventServer interface {
+	SubscribeEvent(*SubscribeEventRequest, HermitShellEvent_SubscribeEventServer) error
 }
 
-// UnimplementedHermitShellServer can be embedded to have forward compatible implementations.
-type UnimplementedHermitShellServer struct {
+// UnimplementedHermitShellEventServer can be embedded to have forward compatible implementations.
+type UnimplementedHermitShellEventServer struct {
 }
 
-func (*UnimplementedHermitShellServer) SubscribeEvent(*SubscribeEventRequest, HermitShell_SubscribeEventServer) error {
+func (*UnimplementedHermitShellEventServer) SubscribeEvent(*SubscribeEventRequest, HermitShellEvent_SubscribeEventServer) error {
 	return status.Errorf(codes.Unimplemented, "method SubscribeEvent not implemented")
 }
 
-func RegisterHermitShellServer(s *grpc.Server, srv HermitShellServer) {
-	s.RegisterService(&_HermitShell_serviceDesc, srv)
+func RegisterHermitShellEventServer(s *grpc.Server, srv HermitShellEventServer) {
+	s.RegisterService(&_HermitShellEvent_serviceDesc, srv)
 }
 
-func _HermitShell_SubscribeEvent_Handler(srv interface{}, stream grpc.ServerStream) error {
+func _HermitShellEvent_SubscribeEvent_Handler(srv interface{}, stream grpc.ServerStream) error {
 	m := new(SubscribeEventRequest)
 	if err := stream.RecvMsg(m); err != nil {
 		return err
 	}
-	return srv.(HermitShellServer).SubscribeEvent(m, &hermitShellSubscribeEventServer{stream})
+	return srv.(HermitShellEventServer).SubscribeEvent(m, &hermitShellEventSubscribeEventServer{stream})
 }
 
-type HermitShell_SubscribeEventServer interface {
+type HermitShellEvent_SubscribeEventServer interface {
 	Send(*SubscribeEventReply) error
 	grpc.ServerStream
 }
 
-type hermitShellSubscribeEventServer struct {
+type hermitShellEventSubscribeEventServer struct {
 	grpc.ServerStream
 }
 
-func (x *hermitShellSubscribeEventServer) Send(m *SubscribeEventReply) error {
+func (x *hermitShellEventSubscribeEventServer) Send(m *SubscribeEventReply) error {
 	return x.ServerStream.SendMsg(m)
 }
 
-var _HermitShell_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "io.hermit.shell.HermitShell",
-	HandlerType: (*HermitShellServer)(nil),
+var _HermitShellEvent_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "io.hermit.shell.HermitShellEvent",
+	HandlerType: (*HermitShellEventServer)(nil),
 	Methods:     []grpc.MethodDesc{},
 	Streams: []grpc.StreamDesc{
 		{
 			StreamName:    "SubscribeEvent",
-			Handler:       _HermitShell_SubscribeEvent_Handler,
+			Handler:       _HermitShellEvent_SubscribeEvent_Handler,
 			ServerStreams: true,
 		},
 	},
