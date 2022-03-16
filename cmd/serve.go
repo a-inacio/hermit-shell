@@ -1,12 +1,12 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+Copyright © 2022 António Inácio
 
 */
 package cmd
 
 import (
-	"fmt"
-
+	"github.com/a-inacio/hermit-shell/internal/logger"
+	"github.com/a-inacio/hermit-shell/internal/server"
 	"github.com/spf13/cobra"
 )
 
@@ -16,7 +16,13 @@ var serveCmd = &cobra.Command{
 	Short: "Run server",
 	Long:  `Run hermit-shell in server mode.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("serve called")
+		logger.Init()
+
+		defer func() {
+			_ = logger.GetLogger().Sync()
+		}()
+
+		server.ServeGrpc()
 	},
 }
 
