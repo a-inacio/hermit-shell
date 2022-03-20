@@ -11,7 +11,7 @@ type Server struct {
 	l zap.SugaredLogger
 }
 
-func NewServer() *Server {
+func RegisterServer() *Server {
 	instance := Server{
 		l: *zap.S(),
 	}

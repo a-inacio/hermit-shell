@@ -7,6 +7,7 @@ package cmd
 import (
 	"github.com/a-inacio/hermit-shell/internal/logger"
 	"github.com/a-inacio/hermit-shell/internal/server"
+	"github.com/a-inacio/hermit-shell/pkg/event"
 	"github.com/spf13/cobra"
 )
 
@@ -21,6 +22,10 @@ var serveCmd = &cobra.Command{
 		defer func() {
 			_ = logger.GetLogger().Sync()
 		}()
+
+		server.InitGrpc()
+
+		event.RegisterServer()
 
 		server.ServeGrpc()
 	},

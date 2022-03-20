@@ -16,6 +16,12 @@ func GetGrprServer() *grpc.Server {
 	return grpcServer
 }
 
+func InitGrpc() {
+	grpcServer = grpc.NewServer()
+
+	reflection.Register(grpcServer)
+}
+
 func ServeGrpc() {
 	log := logger.GetLogger()
 
@@ -23,10 +29,6 @@ func ServeGrpc() {
 	port := "6000"
 
 	log.Infow("GRPC server listening", "port", port)
-
-	grpcServer = grpc.NewServer()
-
-	reflection.Register(grpcServer)
 
 	address := fmt.Sprintf("127.0.0.1:%s", port)
 
