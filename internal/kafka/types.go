@@ -17,6 +17,8 @@ limitations under the License.
 package kafka
 
 import (
+	"context"
+
 	"github.com/Shopify/sarama"
 	"go.uber.org/zap"
 )
@@ -47,4 +49,12 @@ type ListenerConfig struct {
 type ConsumerGroup struct {
 	ready    chan bool
 	consumer Consumer
+}
+
+// ConsumerChannel defines a bidirectional channel communication for consuming and acknowledging messages.
+type ConsumerChannel struct {
+	message chan []byte
+	ack     chan bool
+	ctx     context.Context
+	cancel  context.CancelFunc
 }
